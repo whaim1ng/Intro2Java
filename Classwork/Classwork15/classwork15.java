@@ -49,55 +49,7 @@ public class classwork15 {
         
       // second task 
       int maxRows = 9;
-      
-      for (int i = 1; i <= maxRows; i++) {
-         if (i == 5) {
-            // horizontal line
-            for (int j = 1; j< 9; j++) {
-               System.out.print("* ");
-            }
-            System.out.println("*");
-         } else if (i < 5) {
-            // first diag
-            for (int j = 0; j <= i; j++) {
-               System.out.print(" ");
-            }
-            System.out.print("* ");
-            
-            // middle line
-            for (int j = 3; j >= i; j--) {
-               System.out.print(" ");
-            }
-            System.out.print("*");
-            
-            // last diag
-            for (int j = 3; j >= i; j--) {
-               System.out.print(" ");
-            }
-            System.out.println(" *");
-            
-         } else {
-               // first diag 
-               for (int j = 3; j >= i; j--) {
-                  System.out.print(" ");
-               }
-               System.out.print("*");
-               
-               // middle line
-               for (int j = 0; j <=i; j++) {
-                  System.out.print(" ");
-               }
-               System.out.print("* ");
-                          
-               // last diag
-              for (int j = 0; j <=i; j++) {
-                 System.out.print(" ");
-              }
-              System.out.println("* ");         
-            
-         }
-         
-      }
-      
+      String space = "\t";
+      String star = "*";
    }
 }
